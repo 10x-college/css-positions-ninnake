@@ -1,0 +1,317 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  .vertical-lines {
+    position: fixed;
+    inset: 0 200px;
+    pointer-events: none;
+    background: repeating-linear-gradient(
+      to right,
+      rgba(208, 196, 196, 0.073) 0,
+      rgba(208, 196, 196, 0.073) 60px,
+      transparent 1px,
+      transparent 88.5px
+    );
+    z-index: 10;
+  }
+}
+
+nav {
+  padding: 24px 200px;
+  margin-bottom: 100px;
+}
+.logo {
+  text-decoration: none;
+  width: 111px;
+  height: 28px;
+  color: #13183f;
+
+  font-weight: 1000;
+
+  font-size: 36px;
+  font-family: "Plus Jakarta Sans";
+}
+.started-icon {
+  text-decoration: none;
+  color: white;
+  width: 168px;
+  height: 59px;
+  background-color: #13183f;
+  padding: 16px 32px;
+  border-radius: 28px;
+
+  font-family: "Plus Jakarta Sans";
+  position: absolute;
+  right: 200px;
+  text-align: center;
+}
+.started-icon:hover {
+  background-color: #666ca3;
+}
+.end-logo {
+  text-decoration: none;
+  width: 111px;
+  height: 28px;
+  color: white;
+
+  font-weight: 1000;
+
+  font-size: 36px;
+  font-family: "Plus Jakarta Sans";
+}
+.end-start-icon {
+  text-decoration: none;
+  color: white;
+  width: 168px;
+  height: 59px;
+  background-image: linear-gradient(to bottom, #4851ff, #f02aa6);
+  padding: 16px 32px;
+  border-radius: 28px;
+
+  font-family: "Plus Jakarta Sans";
+  position: absolute;
+  right: 200px;
+  text-align: center;
+}
+.end-start-icon:hover {
+  background-image: linear-gradient(to bottom, #8a8ee2, #df62b1);
+}
+footer {
+  background-color: #13183f;
+  height: 107px;
+  padding: 24px 200px;
+}
+
+.sources-boxes {
+  ul {
+    font-size: 0px;
+  }
+  display: block;
+  margin: 0 auto;
+
+  width: 1120px;
+  height: 756px;
+  .title-card {
+    h4 {
+      display: inline-block;
+
+      width: 288px;
+      height: 114px;
+    }
+    background: linear-gradient(to bottom, #ff6f48, #f02aa6);
+    font-family: "Plus Jakarta Sans";
+    font-size: 32px;
+    line-height: 120%;
+    color: white;
+  }
+
+  li:nth-child(1),
+  li:nth-child(2),
+  li:nth-child(4),
+  li:nth-child(5) {
+    margin-right: 32px;
+  }
+
+  li {
+    background-color: white;
+    margin-bottom: 80px;
+    p {
+      display: inline-block;
+      padding-top: 5px;
+      display: block;
+      color: #83869a;
+      font-size: 18px;
+      font-family: "Plus Jakarta Sans";
+      width: 288px;
+      height: 113px;
+    }
+    h5 {
+      display: inline-block;
+      font-size: 24px;
+      font-family: "Plus Jakarta Sans";
+      line-height: 120%;
+      transform: translate(-50px, -30px);
+    }
+    box-shadow: 4px 15px 20px #f1ecec;
+    display: inline-block;
+    vertical-align: top;
+    padding: 60px 32px 40px 32px;
+    width: 352px;
+    height: 322px;
+    border-radius: 15px;
+    a {
+      display: inline-block;
+      padding-top: 10px;
+      text-decoration: none;
+      color: #f74780;
+      font-size: 18px;
+      font-family: "Plus Jakarta Sans";
+      line-height: 150%;
+    }
+    a:hover {
+      color: #f7bde3;
+    }
+  }
+}
+main {
+  background-image: linear-gradient(to bottom, white, #f0f1ff);
+}
+
+.box-icon {
+  position: relative;
+  display: inline-block;
+  width: 56px;
+  height: 56px;
+  background-image: linear-gradient(to bottom, #ff6f48, #f02aa6);
+  color: black;
+  transform: translateX(-50%);
+  transform: translateY(-150%);
+  border-radius: 80px;
+  img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 30%;
+    left: 32%;
+  }
+}
+.main-content {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+
+  width: 1120px;
+  height: 660px;
+}
+.intro {
+  position: absolute;
+  top: 20%;
+  display: inline-block;
+  width: 544px;
+  height: 339px;
+  p {
+    display: inline-block;
+    width: 457px;
+    height: 81px;
+    color: #83869a;
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px;
+    line-height: 150%;
+  }
+}
+.title {
+  display: inline-block;
+  color: #13183f;
+  font-family: "Plus Jakarta Sans";
+  font-size: 56px;
+  line-height: 120%;
+  margin-bottom: 20px;
+}
+.intro-started-icon {
+  margin-top: 30px;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  width: 168px;
+  height: 59px;
+  background: linear-gradient(to bottom, #ff6f48, #f02aa6);
+  padding: 16px 32px;
+  border-radius: 28px;
+
+  font-family: "Plus Jakarta Sans";
+
+  text-align: center;
+}
+.intro-started-icon:hover {
+  background: linear-gradient(to bottom, #f6ab96, #f59ad4);
+}
+.figures {
+  display: inline-block;
+}
+.pink-form {
+  display: inline-block;
+  width: 317px;
+  height: 560px;
+  background: linear-gradient(to bottom, #ff6f48, #f02aa6);
+  position: absolute;
+  left: 66.5%;
+  top: 0%;
+  border-radius: 158.5px;
+
+  img {
+    border-radius: 158.5px;
+    position: absolute;
+    bottom: 0px;
+  }
+}
+
+.purple-form {
+  display: inline-block;
+
+  position: absolute;
+  top: -365px;
+  left: 90%;
+  width: 317px;
+  height: 1008px;
+  background: linear-gradient(to bottom, #4851ff, #f02aa6);
+  transform: rotate(45deg);
+  border-radius: 158.5px;
+}
+html {
+  overflow-x: hidden;
+}
+.members {
+  background-color: white;
+  display: inline-block;
+  position: absolute;
+  left: 92%;
+  top: 18%;
+  width: 155px;
+  height: 120px;
+
+  box-shadow: 0px 34px 54px 0px #979797;
+  border-radius: 15px;
+  p {
+    color: #83869a;
+    font-size: 16px;
+    line-height: 150%;
+    font-family: "Plus Jakarta Sans";
+    padding: 10px 30px;
+    font-weight: 600;
+  }
+  .number {
+    color: #13183f;
+    line-height: 120%;
+    font-size: 40px;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 900;
+  }
+}
+.hours {
+  width: 199px;
+  height: 120px;
+  background-color: white;
+  display: inline-block;
+  position: absolute;
+  left: 56%;
+  top: 53%;
+  box-shadow: 0px 4px 14px 0px #beb7b7;
+  border-radius: 15px;
+  p {
+    color: #83869a;
+    font-size: 16px;
+    line-height: 150%;
+    font-family: "Plus Jakarta Sans";
+    padding: 10px 30px;
+    font-weight: 600;
+  }
+  .number {
+    color: #13183f;
+    line-height: 120%;
+    font-size: 40px;
+    font-family: "Plus Jakarta Sans";
+  }
+}
